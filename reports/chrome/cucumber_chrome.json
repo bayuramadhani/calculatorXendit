@@ -1,1088 +1,1088 @@
 [
-    {
-      "keyword": "Feature",
-      "name": "Calculator Online Feature Substraction",
-      "line": 1,
-      "id": "calculator-online-feature-substraction",
-      "tags": [],
-      "uri": "tests/features/calculator_online._substraction.feature",
-      "elements": [
-        {
-          "id": "calculator-online-feature-substraction;simulate-substraction-feature-between-3-and-1",
-          "keyword": "Scenario",
-          "line": 4,
-          "name": "Simulate Substraction Feature between 3 and 1",
-          "tags": [
-            {
-              "name": "@clear",
-              "line": 3
+  {
+    "keyword": "Feature",
+    "name": "Calculator Online Feature Substraction",
+    "line": 1,
+    "id": "calculator-online-feature-substraction",
+    "tags": [],
+    "uri": "tests/features/calculator_online._substraction.feature",
+    "elements": [
+      {
+        "id": "calculator-online-feature-substraction;simulate-substraction-feature-between-3-and-1",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Simulate Substraction Feature between 3 and 1",
+        "tags": [
+          {
+            "name": "@clear",
+            "line": 3
+          },
+          {
+            "name": "@quit",
+            "line": 3
+          },
+          {
+            "name": "@positive",
+            "line": 3
+          },
+          {
+            "name": "@substraction",
+            "line": 3
+          },
+          {
+            "name": "@substraction1",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:7"
             },
-            {
-              "name": "@quit",
-              "line": 3
-            },
-            {
-              "name": "@positive",
-              "line": 3
-            },
-            {
-              "name": "@substraction",
-              "line": 3
-            },
-            {
-              "name": "@substraction1",
-              "line": 3
+            "result": {
+              "status": "passed",
+              "duration": 1867000000
             }
-          ],
-          "type": "scenario",
-          "steps": [
-            {
-              "keyword": "Before",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:7"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1867000000
-              }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I try to access calculator online address",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:6"
             },
-            {
-              "arguments": [],
-              "keyword": "Given ",
-              "line": 5,
-              "name": "I try to access calculator online address",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:6"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 2332000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "When ",
-              "line": 6,
-              "name": "Calculator online is Ready",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:10"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 350000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "Then ",
-              "line": 7,
-              "name": "I will try to calculate number \"3\" using operator \"-\" with number \"1\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:14"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1690000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "And ",
-              "line": 8,
-              "name": "I will hit button \"=\" succesfully and see result equal \"2\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:20"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 6296000000
-              }
-            },
-            {
-              "keyword": "After",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:17"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 59000000
-              }
+            "result": {
+              "status": "passed",
+              "duration": 2332000000
             }
-          ]
-        },
-        {
-          "id": "calculator-online-feature-substraction;simulate-substraction-feature-between--3-and-1",
-          "keyword": "Scenario",
-          "line": 11,
-          "name": "Simulate Substraction Feature between -3 and 1",
-          "tags": [
-            {
-              "name": "@clear",
-              "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Calculator online is Ready",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:10"
             },
-            {
-              "name": "@quit",
-              "line": 10
-            },
-            {
-              "name": "@positive",
-              "line": 10
-            },
-            {
-              "name": "@substraction",
-              "line": 10
-            },
-            {
-              "name": "@substraction2",
-              "line": 10
+            "result": {
+              "status": "passed",
+              "duration": 350000000
             }
-          ],
-          "type": "scenario",
-          "steps": [
-            {
-              "keyword": "Before",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:7"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1240000000
-              }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I will try to calculate number \"3\" using operator \"-\" with number \"1\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:14"
             },
-            {
-              "arguments": [],
-              "keyword": "Given ",
-              "line": 12,
-              "name": "I try to access calculator online address",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:6"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 2264000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "When ",
-              "line": 13,
-              "name": "Calculator online is Ready",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:10"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 252000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "Then ",
-              "line": 14,
-              "name": "I will try to calculate number \"-3\" using operator \"-\" with number \"1\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:14"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1668000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "And ",
-              "line": 15,
-              "name": "I will hit button \"=\" succesfully and see result equal \"-4\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:20"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 6503000000
-              }
-            },
-            {
-              "keyword": "After",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:17"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 57000000
-              }
+            "result": {
+              "status": "passed",
+              "duration": 1690000000
             }
-          ]
-        },
-        {
-          "id": "calculator-online-feature-substraction;simulate-substraction-feature-between--965132.97-and-0.001",
-          "keyword": "Scenario",
-          "line": 18,
-          "name": "Simulate Substraction Feature between -965132.97 and 0.001",
-          "tags": [
-            {
-              "name": "@clear",
-              "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I will hit button \"=\" succesfully and see result equal \"2\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:20"
             },
-            {
-              "name": "@quit",
-              "line": 17
-            },
-            {
-              "name": "@negative",
-              "line": 17
-            },
-            {
-              "name": "@substraction",
-              "line": 17
-            },
-            {
-              "name": "@substraction3",
-              "line": 17
+            "result": {
+              "status": "passed",
+              "duration": 6296000000
             }
-          ],
-          "type": "scenario",
-          "steps": [
-            {
-              "keyword": "Before",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:7"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1109000000
-              }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:17"
             },
-            {
-              "arguments": [],
-              "keyword": "Given ",
-              "line": 19,
-              "name": "I try to access calculator online address",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:6"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 3186000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "When ",
-              "line": 20,
-              "name": "Calculator online is Ready",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:10"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 255000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "Then ",
-              "line": 21,
-              "name": "I will try to calculate number \"-965132.97\" using operator \"-\" with number \"0.001\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:14"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1680000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "And ",
-              "line": 22,
-              "name": "I will hit button \"=\" succesfully and see result equal \"-965132.971\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:20"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 6851000000
-              }
-            },
-            {
-              "keyword": "After",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:17"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 57000000
-              }
+            "result": {
+              "status": "passed",
+              "duration": 59000000
             }
-          ]
-        }
-      ]
-    },
-    {
-      "keyword": "Feature",
-      "name": "Calculator Online Feature Addition",
-      "line": 1,
-      "id": "calculator-online-feature-addition",
-      "tags": [],
-      "uri": "tests/features/calculator_online_addition.feature",
-      "elements": [
-        {
-          "id": "calculator-online-feature-addition;simulate-addition-feature-between-3-and-1",
-          "keyword": "Scenario",
-          "line": 4,
-          "name": "Simulate Addition Feature between 3 and 1",
-          "tags": [
-            {
-              "name": "@clear",
-              "line": 3
+          }
+        ]
+      },
+      {
+        "id": "calculator-online-feature-substraction;simulate-substraction-feature-between--3-and-1",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Simulate Substraction Feature between -3 and 1",
+        "tags": [
+          {
+            "name": "@clear",
+            "line": 10
+          },
+          {
+            "name": "@quit",
+            "line": 10
+          },
+          {
+            "name": "@positive",
+            "line": 10
+          },
+          {
+            "name": "@substraction",
+            "line": 10
+          },
+          {
+            "name": "@substraction2",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:7"
             },
-            {
-              "name": "@quit",
-              "line": 3
-            },
-            {
-              "name": "@positive",
-              "line": 3
-            },
-            {
-              "name": "@addition",
-              "line": 3
-            },
-            {
-              "name": "@addition1",
-              "line": 3
+            "result": {
+              "status": "passed",
+              "duration": 1240000000
             }
-          ],
-          "type": "scenario",
-          "steps": [
-            {
-              "keyword": "Before",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:7"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1315000000
-              }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I try to access calculator online address",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:6"
             },
-            {
-              "arguments": [],
-              "keyword": "Given ",
-              "line": 5,
-              "name": "I try to access calculator online address",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:6"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 2317000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "When ",
-              "line": 6,
-              "name": "Calculator online is Ready",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:10"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 237000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "Then ",
-              "line": 7,
-              "name": "I will try to calculate number \"3\" using operator \"+\" with number \"1\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:14"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1671000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "And ",
-              "line": 8,
-              "name": "I will hit button \"=\" succesfully and see result equal \"4\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:20"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 6482000000
-              }
-            },
-            {
-              "keyword": "After",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:17"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 58000000
-              }
+            "result": {
+              "status": "passed",
+              "duration": 2264000000
             }
-          ]
-        },
-        {
-          "id": "calculator-online-feature-addition;simulate-addition-feature-between-132.97-and-0.001",
-          "keyword": "Scenario",
-          "line": 11,
-          "name": "Simulate Addition Feature between 132.97 and 0.001",
-          "tags": [
-            {
-              "name": "@clear",
-              "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Calculator online is Ready",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:10"
             },
-            {
-              "name": "@quit",
-              "line": 10
-            },
-            {
-              "name": "@positive",
-              "line": 10
-            },
-            {
-              "name": "@addition",
-              "line": 10
-            },
-            {
-              "name": "@addition2",
-              "line": 10
+            "result": {
+              "status": "passed",
+              "duration": 252000000
             }
-          ],
-          "type": "scenario",
-          "steps": [
-            {
-              "keyword": "Before",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:7"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1214000000
-              }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I will try to calculate number \"-3\" using operator \"-\" with number \"1\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:14"
             },
-            {
-              "arguments": [],
-              "keyword": "Given ",
-              "line": 12,
-              "name": "I try to access calculator online address",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:6"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 3139000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "When ",
-              "line": 13,
-              "name": "Calculator online is Ready",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:10"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 191000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "Then ",
-              "line": 14,
-              "name": "I will try to calculate number \"132.97\" using operator \"+\" with number \"0.001\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:14"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1674000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "And ",
-              "line": 15,
-              "name": "I will hit button \"=\" succesfully and see result equal \"132.971\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:20"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 6527000000
-              }
-            },
-            {
-              "keyword": "After",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:17"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 56000000
-              }
+            "result": {
+              "status": "passed",
+              "duration": 1668000000
             }
-          ]
-        },
-        {
-          "id": "calculator-online-feature-addition;simulate-addition-feature-between-965132.97-and-0.001",
-          "keyword": "Scenario",
-          "line": 18,
-          "name": "Simulate Addition Feature between 965132.97 and 0.001",
-          "tags": [
-            {
-              "name": "@clear",
-              "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I will hit button \"=\" succesfully and see result equal \"-4\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:20"
             },
-            {
-              "name": "@quit",
-              "line": 17
-            },
-            {
-              "name": "@negative",
-              "line": 17
-            },
-            {
-              "name": "@addition",
-              "line": 17
-            },
-            {
-              "name": "@addition3",
-              "line": 17
+            "result": {
+              "status": "passed",
+              "duration": 6503000000
             }
-          ],
-          "type": "scenario",
-          "steps": [
-            {
-              "keyword": "Before",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:7"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1177000000
-              }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:17"
             },
-            {
-              "arguments": [],
-              "keyword": "Given ",
-              "line": 19,
-              "name": "I try to access calculator online address",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:6"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1912000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "When ",
-              "line": 20,
-              "name": "Calculator online is Ready",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:10"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 184000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "Then ",
-              "line": 21,
-              "name": "I will try to calculate number \"965132.97\" using operator \"+\" with number \"0.001\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:14"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1699000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "And ",
-              "line": 22,
-              "name": "I will hit button \"=\" succesfully and see result equal \"965132.971\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:20"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 6719000000
-              }
-            },
-            {
-              "keyword": "After",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:17"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 56000000
-              }
+            "result": {
+              "status": "passed",
+              "duration": 57000000
             }
-          ]
-        }
-      ]
-    },
-    {
-      "keyword": "Feature",
-      "name": "Calculator Online Feature Cancelled",
-      "line": 1,
-      "id": "calculator-online-feature-cancelled",
-      "tags": [],
-      "uri": "tests/features/calculator_online_ce.feature",
-      "elements": [
-        {
-          "id": "calculator-online-feature-cancelled;simulate-cancelled-feature-on-online-calculator",
-          "keyword": "Scenario",
-          "line": 4,
-          "name": "Simulate Cancelled Feature on Online Calculator",
-          "tags": [
-            {
-              "name": "@clear",
-              "line": 3
+          }
+        ]
+      },
+      {
+        "id": "calculator-online-feature-substraction;simulate-substraction-feature-between--965132.97-and-0.001",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulate Substraction Feature between -965132.97 and 0.001",
+        "tags": [
+          {
+            "name": "@clear",
+            "line": 17
+          },
+          {
+            "name": "@quit",
+            "line": 17
+          },
+          {
+            "name": "@negative",
+            "line": 17
+          },
+          {
+            "name": "@substraction",
+            "line": 17
+          },
+          {
+            "name": "@substraction3",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:7"
             },
-            {
-              "name": "@quit",
-              "line": 3
-            },
-            {
-              "name": "@positive",
-              "line": 3
-            },
-            {
-              "name": "@cancelled1",
-              "line": 3
+            "result": {
+              "status": "passed",
+              "duration": 1109000000
             }
-          ],
-          "type": "scenario",
-          "steps": [
-            {
-              "keyword": "Before",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:7"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1089000000
-              }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I try to access calculator online address",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:6"
             },
-            {
-              "arguments": [],
-              "keyword": "Given ",
-              "line": 5,
-              "name": "I try to access calculator online address",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:6"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 2078000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "When ",
-              "line": 6,
-              "name": "Calculator online is Ready",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:10"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 174000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "Then ",
-              "line": 7,
-              "name": "I will try to calculate number \"6\" using operator \"/\" with number \"3\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:14"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1673000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "And ",
-              "line": 8,
-              "name": "I will hit button \"C\" succesfully and see result equal \"0\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:20"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 6550000000
-              }
-            },
-            {
-              "keyword": "After",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:17"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 57000000
-              }
+            "result": {
+              "status": "passed",
+              "duration": 3186000000
             }
-          ]
-        }
-      ]
-    },
-    {
-      "keyword": "Feature",
-      "name": "Calculator Online Feature Division",
-      "line": 1,
-      "id": "calculator-online-feature-division",
-      "tags": [],
-      "uri": "tests/features/calculator_online_division.feature",
-      "elements": [
-        {
-          "id": "calculator-online-feature-division;simulate-division-feature-between-6-and-3",
-          "keyword": "Scenario",
-          "line": 4,
-          "name": "Simulate Division Feature between 6 and 3",
-          "tags": [
-            {
-              "name": "@clear",
-              "line": 3
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "Calculator online is Ready",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:10"
             },
-            {
-              "name": "@quit",
-              "line": 3
-            },
-            {
-              "name": "@positive",
-              "line": 3
-            },
-            {
-              "name": "@division",
-              "line": 3
-            },
-            {
-              "name": "@division1",
-              "line": 3
+            "result": {
+              "status": "passed",
+              "duration": 255000000
             }
-          ],
-          "type": "scenario",
-          "steps": [
-            {
-              "keyword": "Before",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:7"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1102000000
-              }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I will try to calculate number \"-965132.97\" using operator \"-\" with number \"0.001\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:14"
             },
-            {
-              "arguments": [],
-              "keyword": "Given ",
-              "line": 5,
-              "name": "I try to access calculator online address",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:6"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 2661000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "When ",
-              "line": 6,
-              "name": "Calculator online is Ready",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:10"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 176000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "Then ",
-              "line": 7,
-              "name": "I will try to calculate number \"6\" using operator \"/\" with number \"3\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:14"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1681000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "And ",
-              "line": 8,
-              "name": "I will hit button \"=\" succesfully and see result equal \"2\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:20"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 6367000000
-              }
-            },
-            {
-              "keyword": "After",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:17"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 57000000
-              }
+            "result": {
+              "status": "passed",
+              "duration": 1680000000
             }
-          ]
-        },
-        {
-          "id": "calculator-online-feature-division;simulate-division-feature-between--7-and-2",
-          "keyword": "Scenario",
-          "line": 11,
-          "name": "Simulate Division Feature between -7 and 2",
-          "tags": [
-            {
-              "name": "@clear",
-              "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I will hit button \"=\" succesfully and see result equal \"-965132.971\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:20"
             },
-            {
-              "name": "@quit",
-              "line": 10
-            },
-            {
-              "name": "@positive",
-              "line": 10
-            },
-            {
-              "name": "@division",
-              "line": 10
-            },
-            {
-              "name": "@division2",
-              "line": 10
+            "result": {
+              "status": "passed",
+              "duration": 6851000000
             }
-          ],
-          "type": "scenario",
-          "steps": [
-            {
-              "keyword": "Before",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:7"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1121000000
-              }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:17"
             },
-            {
-              "arguments": [],
-              "keyword": "Given ",
-              "line": 12,
-              "name": "I try to access calculator online address",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:6"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1521000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "When ",
-              "line": 13,
-              "name": "Calculator online is Ready",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:10"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 183000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "Then ",
-              "line": 14,
-              "name": "I will try to calculate number \"-7\" using operator \"/\" with number \"2\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:14"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1677000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "And ",
-              "line": 15,
-              "name": "I will hit button \"=\" succesfully and see result equal \"-3.5\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:20"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 6597000000
-              }
-            },
-            {
-              "keyword": "After",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:17"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 58000000
-              }
+            "result": {
+              "status": "passed",
+              "duration": 57000000
             }
-          ]
-        },
-        {
-          "id": "calculator-online-feature-division;simulate-division-feature-between-100-and-3",
-          "keyword": "Scenario",
-          "line": 18,
-          "name": "Simulate Division Feature between 100 and 3",
-          "tags": [
-            {
-              "name": "@clear",
-              "line": 17
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Calculator Online Feature Addition",
+    "line": 1,
+    "id": "calculator-online-feature-addition",
+    "tags": [],
+    "uri": "tests/features/calculator_online_addition.feature",
+    "elements": [
+      {
+        "id": "calculator-online-feature-addition;simulate-addition-feature-between-3-and-1",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Simulate Addition Feature between 3 and 1",
+        "tags": [
+          {
+            "name": "@clear",
+            "line": 3
+          },
+          {
+            "name": "@quit",
+            "line": 3
+          },
+          {
+            "name": "@positive",
+            "line": 3
+          },
+          {
+            "name": "@addition",
+            "line": 3
+          },
+          {
+            "name": "@addition1",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:7"
             },
-            {
-              "name": "@quit",
-              "line": 17
-            },
-            {
-              "name": "@positive",
-              "line": 17
-            },
-            {
-              "name": "@division",
-              "line": 17
-            },
-            {
-              "name": "@division3",
-              "line": 17
+            "result": {
+              "status": "passed",
+              "duration": 1315000000
             }
-          ],
-          "type": "scenario",
-          "steps": [
-            {
-              "keyword": "Before",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:7"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1096000000
-              }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I try to access calculator online address",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:6"
             },
-            {
-              "arguments": [],
-              "keyword": "Given ",
-              "line": 19,
-              "name": "I try to access calculator online address",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:6"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1554000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "When ",
-              "line": 20,
-              "name": "Calculator online is Ready",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:10"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 250000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "Then ",
-              "line": 21,
-              "name": "I will try to calculate number \"100\" using operator \"/\" with number \"3\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:14"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 1670000000
-              }
-            },
-            {
-              "arguments": [],
-              "keyword": "And ",
-              "line": 22,
-              "name": "I will hit button \"=\" succesfully and see result equal \"33.3333333\"",
-              "match": {
-                "location": "tests/step_definitions/calculator_step_definition.js:20"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 6238000000
-              }
-            },
-            {
-              "keyword": "After",
-              "hidden": true,
-              "match": {
-                "location": "tests/helper/hooks.js:17"
-              },
-              "result": {
-                "status": "passed",
-                "duration": 57000000
-              }
+            "result": {
+              "status": "passed",
+              "duration": 2317000000
             }
-          ]
-        }
-      ]
-    }
-  ]
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Calculator online is Ready",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I will try to calculate number \"3\" using operator \"+\" with number \"1\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1671000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I will hit button \"=\" succesfully and see result equal \"4\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6482000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "calculator-online-feature-addition;simulate-addition-feature-between-132.97-and-0.001",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Simulate Addition Feature between 132.97 and 0.001",
+        "tags": [
+          {
+            "name": "@clear",
+            "line": 10
+          },
+          {
+            "name": "@quit",
+            "line": 10
+          },
+          {
+            "name": "@positive",
+            "line": 10
+          },
+          {
+            "name": "@addition",
+            "line": 10
+          },
+          {
+            "name": "@addition2",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I try to access calculator online address",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Calculator online is Ready",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I will try to calculate number \"132.97\" using operator \"+\" with number \"0.001\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1674000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I will hit button \"=\" succesfully and see result equal \"132.971\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6527000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "calculator-online-feature-addition;simulate-addition-feature-between-965132.97-and-0.001",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulate Addition Feature between 965132.97 and 0.001",
+        "tags": [
+          {
+            "name": "@clear",
+            "line": 17
+          },
+          {
+            "name": "@quit",
+            "line": 17
+          },
+          {
+            "name": "@negative",
+            "line": 17
+          },
+          {
+            "name": "@addition",
+            "line": 17
+          },
+          {
+            "name": "@addition3",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I try to access calculator online address",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1912000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "Calculator online is Ready",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I will try to calculate number \"965132.97\" using operator \"+\" with number \"0.001\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1699000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I will hit button \"=\" succesfully and see result equal \"965132.971\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6719000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Calculator Online Feature Cancelled",
+    "line": 1,
+    "id": "calculator-online-feature-cancelled",
+    "tags": [],
+    "uri": "tests/features/calculator_online_ce.feature",
+    "elements": [
+      {
+        "id": "calculator-online-feature-cancelled;simulate-cancelled-feature-on-online-calculator",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Simulate Cancelled Feature on Online Calculator",
+        "tags": [
+          {
+            "name": "@clear",
+            "line": 3
+          },
+          {
+            "name": "@quit",
+            "line": 3
+          },
+          {
+            "name": "@positive",
+            "line": 3
+          },
+          {
+            "name": "@cancelled1",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I try to access calculator online address",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Calculator online is Ready",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I will try to calculate number \"6\" using operator \"/\" with number \"3\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1673000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I will hit button \"C\" succesfully and see result equal \"0\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6550000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Calculator Online Feature Division",
+    "line": 1,
+    "id": "calculator-online-feature-division",
+    "tags": [],
+    "uri": "tests/features/calculator_online_division.feature",
+    "elements": [
+      {
+        "id": "calculator-online-feature-division;simulate-division-feature-between-6-and-3",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Simulate Division Feature between 6 and 3",
+        "tags": [
+          {
+            "name": "@clear",
+            "line": 3
+          },
+          {
+            "name": "@quit",
+            "line": 3
+          },
+          {
+            "name": "@positive",
+            "line": 3
+          },
+          {
+            "name": "@division",
+            "line": 3
+          },
+          {
+            "name": "@division1",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I try to access calculator online address",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Calculator online is Ready",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I will try to calculate number \"6\" using operator \"/\" with number \"3\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1681000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I will hit button \"=\" succesfully and see result equal \"2\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6367000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "calculator-online-feature-division;simulate-division-feature-between--7-and-2",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Simulate Division Feature between -7 and 2",
+        "tags": [
+          {
+            "name": "@clear",
+            "line": 10
+          },
+          {
+            "name": "@quit",
+            "line": 10
+          },
+          {
+            "name": "@positive",
+            "line": 10
+          },
+          {
+            "name": "@division",
+            "line": 10
+          },
+          {
+            "name": "@division2",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I try to access calculator online address",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "Calculator online is Ready",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I will try to calculate number \"-7\" using operator \"/\" with number \"2\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1677000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I will hit button \"=\" succesfully and see result equal \"-3.5\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6597000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "calculator-online-feature-division;simulate-division-feature-between-100-and-3",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Simulate Division Feature between 100 and 3",
+        "tags": [
+          {
+            "name": "@clear",
+            "line": 17
+          },
+          {
+            "name": "@quit",
+            "line": 17
+          },
+          {
+            "name": "@positive",
+            "line": 17
+          },
+          {
+            "name": "@division",
+            "line": 17
+          },
+          {
+            "name": "@division3",
+            "line": 17
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "I try to access calculator online address",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "Calculator online is Ready",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I will try to calculate number \"100\" using operator \"/\" with number \"3\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1670000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I will hit button \"=\" succesfully and see result equal \"33.3333333\"",
+            "match": {
+              "location": "tests/step_definitions/calculator_step_definition.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6238000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "tests/helper/hooks.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,235 @@
+22:14:27.109 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+22:14:27.209 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2020-03-16 22:14:27.280:INFO::main: Logging initialized @514ms to org.seleniumhq.jetty9.util.log.StdErrLog
+22:14:27.538 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+22:14:27.662 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+22:14:28.842 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+22:14:28.843 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 40842
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:14:30.447 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:14:30.497 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 21044d30fec4b414289057012e591ef9 (org.openqa.selenium.chrome.ChromeDriverService)
+[1584371671.718][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371671.914][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371672.016][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371672.119][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371672.222][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371672.324][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371672.425][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371672.527][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371672.630][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371672.732][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371672.834][SEVERE]: Timed out receiving message from renderer: 0.100
+22:14:41.337 INFO [ActiveSessions$1.onStop] - Removing session 21044d30fec4b414289057012e591ef9 (org.openqa.selenium.chrome.ChromeDriverService)
+22:14:41.345 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+22:14:41.345 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 1427
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:14:42.504 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:14:42.509 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 59772895320e4c60437d6f74231d9c04 (org.openqa.selenium.chrome.ChromeDriverService)
+[1584371683.693][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371683.889][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371683.992][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371684.094][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371684.197][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371684.298][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371684.401][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371684.504][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371684.607][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371684.709][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371684.811][SEVERE]: Timed out receiving message from renderer: 0.100
+22:14:53.337 INFO [ActiveSessions$1.onStop] - Removing session 59772895320e4c60437d6f74231d9c04 (org.openqa.selenium.chrome.ChromeDriverService)
+22:14:53.352 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+22:14:53.353 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 46201
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:14:54.393 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:14:54.396 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8682651d3c4aea09b027fc893ed76876 (org.openqa.selenium.chrome.ChromeDriverService)
+[1584371695.740][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371695.910][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371696.013][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371696.116][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371696.218][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371696.320][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371696.421][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371696.523][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371696.626][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371696.729][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371696.830][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371696.932][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371697.035][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371697.138][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371697.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371697.342][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371697.444][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371697.546][SEVERE]: Timed out receiving message from renderer: 0.100
+22:15:06.487 INFO [ActiveSessions$1.onStop] - Removing session 8682651d3c4aea09b027fc893ed76876 (org.openqa.selenium.chrome.ChromeDriverService)
+22:15:06.497 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+22:15:06.497 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 39738
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:15:07.744 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:15:07.746 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 6733c4c0ce45fd72d5d2c397980b894b (org.openqa.selenium.chrome.ChromeDriverService)
+[1584371708.931][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371709.126][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371709.228][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371709.331][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371709.433][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371709.535][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371709.638][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371709.739][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371709.841][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371709.942][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371710.044][SEVERE]: Timed out receiving message from renderer: 0.100
+22:15:18.585 INFO [ActiveSessions$1.onStop] - Removing session 6733c4c0ce45fd72d5d2c397980b894b (org.openqa.selenium.chrome.ChromeDriverService)
+22:15:18.600 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+22:15:18.600 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 48193
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:15:19.743 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:15:19.746 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 2d30d8411407a7cecf0bbf166dbd0e1b (org.openqa.selenium.chrome.ChromeDriverService)
+[1584371720.903][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371721.086][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371721.188][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371721.290][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371721.392][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371721.493][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371721.595][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371721.697][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371721.800][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371721.903][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371722.005][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371722.107][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371722.209][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371722.311][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371722.412][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371722.515][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371722.617][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371722.719][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371722.820][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371722.923][SEVERE]: Timed out receiving message from renderer: 0.100
+22:15:31.396 INFO [ActiveSessions$1.onStop] - Removing session 2d30d8411407a7cecf0bbf166dbd0e1b (org.openqa.selenium.chrome.ChromeDriverService)
+22:15:31.407 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+22:15:31.407 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 39338
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:15:32.517 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:15:32.519 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 5f98fd1f5528778abb60c8620b5ab104 (org.openqa.selenium.chrome.ChromeDriverService)
+[1584371733.647][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371733.830][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371733.932][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371734.034][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371734.137][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371734.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371734.343][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371734.444][SEVERE]: Timed out receiving message from renderer: 0.100
+22:15:43.154 INFO [ActiveSessions$1.onStop] - Removing session 5f98fd1f5528778abb60c8620b5ab104 (org.openqa.selenium.chrome.ChromeDriverService)
+22:15:43.163 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+22:15:43.163 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 36373
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:15:44.176 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:15:44.178 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 8930de55daa7d4f77a81e53789954c05 (org.openqa.selenium.chrome.ChromeDriverService)
+[1584371745.777][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371745.950][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371746.052][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371746.154][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371746.257][SEVERE]: Timed out receiving message from renderer: 0.100
+22:15:54.786 INFO [ActiveSessions$1.onStop] - Removing session 8930de55daa7d4f77a81e53789954c05 (org.openqa.selenium.chrome.ChromeDriverService)
+22:15:54.802 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+22:15:54.802 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 13510
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:15:55.829 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:15:55.834 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session e8cc2cdf5bcef2d6a4b8b32c112e92ce (org.openqa.selenium.chrome.ChromeDriverService)
+[1584371756.973][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371757.074][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371757.175][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371757.277][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371757.379][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371757.481][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371757.582][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371757.683][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371757.785][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371757.888][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371757.991][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371758.094][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371758.196][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371758.299][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371758.402][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371758.504][SEVERE]: Timed out receiving message from renderer: 0.100
+22:16:06.843 INFO [ActiveSessions$1.onStop] - Removing session e8cc2cdf5bcef2d6a4b8b32c112e92ce (org.openqa.selenium.chrome.ChromeDriverService)
+22:16:06.857 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+22:16:06.857 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 47566
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:16:07.915 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:16:07.917 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session c11d470fb47d4256837abfdfd1a73a45 (org.openqa.selenium.chrome.ChromeDriverService)
+[1584371769.039][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371769.142][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371769.256][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371769.359][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371769.461][SEVERE]: Timed out receiving message from renderer: 0.100
+22:16:18.018 INFO [ActiveSessions$1.onStop] - Removing session c11d470fb47d4256837abfdfd1a73a45 (org.openqa.selenium.chrome.ChromeDriverService)
+22:16:18.030 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+22:16:18.030 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 80.0.3987.16 (320f6526c1632ad4f205ebce69b99a062ed78647-refs/branch-heads/3987@{#185}) on port 3596
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+22:16:19.065 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+22:16:19.068 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 26425196ecb3e9d7f5b397da21ff221e (org.openqa.selenium.chrome.ChromeDriverService)
+[1584371780.157][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371780.259][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371780.399][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371780.502][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584371780.604][SEVERE]: Timed out receiving message from renderer: 0.100
+22:16:28.898 INFO [ActiveSessions$1.onStop] - Removing session 26425196ecb3e9d7f5b397da21ff221e (org.openqa.selenium.chrome.ChromeDriverService)
